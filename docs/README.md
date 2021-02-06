@@ -5,7 +5,7 @@ description: 专注于移动端手游性能服务
 actionText: 快速查看Demo →
 actionLink: /
 features:
-- title: 三步接入
+- title: 专注于移动端服务
   details: 使用CURL常用命令行,无需所谓的接入脚本,无需开发环境
 - title: 分析全面
   details: 高效分析安装包内文件占比及大小,让你一眼发现有问题的资源
