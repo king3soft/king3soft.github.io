@@ -1,9 +1,10 @@
 ---
+sidebar: false
 home: true
 # heroImage: /hero.png
 description: 专注于移动端手游性能服务
-actionText: 快速查看Demo →
-actionLink: /
+actionText: 快速查看上手 →
+actionLink: https://vuepress.vuejs.org/zh/guide
 features:
 - title: 专注于移动端服务
   details: 使用CURL常用命令行,无需所谓的接入脚本,无需开发环境

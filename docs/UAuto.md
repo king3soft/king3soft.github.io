@@ -1,13 +1,15 @@
 ---
 navbar: false
 sidebar: auto
-title: 自动化测试
+title: 手游自动化测试
 ---
  
 ## U3Driver安装方法
 [https://king3soft.github.io/u3driver](https://king3soft.github.io/u3driver)
 
 ## python端与dll包实现连接的方式
+>python框架：[https://github.com/king3soft/u3driver](https://github.com/king3soft/u3driver)
+
 1. 在cmd输入命令adb devices即可获得当前连接的设备的设备号
 <img :src="$withBase('/01.png')" alt="01">
 
@@ -28,7 +30,6 @@ python temp_test.py -s 8f04cc32 -i 10.11.244.243
 **具体指令可通过上述u3driver笔记链接查看**
 
 <img :src="$withBase('/02.png')" alt="02">
-
 
 示例1. 录制，目前只支持点击，拖动，文本输入的录制
 ``` js
@@ -106,11 +107,10 @@ uiauto.swipe(x1,y1,x2,y2,0.5) # 模拟滑动操作
 <img :src="$withBase('/04.png')" alt="04">
 
 2. 显示ip地址获取错误是因为设备使用adb获取ip地址的方式比较特殊，解决方法：手动输入ip地址
-
 <img :src="$withBase('/05.png')" alt="05">
 
 3. 未找到该物体，解决方法：查看该控件是否在当前的游戏界面中，可通过debug_mode录制确认路径是否有误
-<img :src="$withBase('/06.png')" alt="06">
+<img :src="$withBase('/06.png')" alt="06" style>
 
 4. 越界错误，一般出现在寻找父物体下的子物体时，父物体下无该索引的子物体即报错，解决方法：修改child_index()里的索引进行寻找，要确保该父物体下是有子物体存在的
 <img :src="$withBase('/07.png')" alt="07">
