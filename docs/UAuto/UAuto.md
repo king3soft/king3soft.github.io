@@ -1,13 +1,16 @@
 ---
 navbar: false
-title: 手游自动化测试
+title: 手游自动化框架详解
 ---
  
+## 手游自动化
+>
+
 ## U3Driver安装方法
 [https://king3soft.github.io/u3driver](https://king3soft.github.io/u3driver)
 
 ## python端与dll包实现连接的方式
->python框架：[https://github.com/king3soft/u3driver](https://github.com/king3soft/u3driver)
+>如果您需要使用搭建好的python框架，请从[https://github.com/king3soft/u3driver](https://github.com/king3soft/u3driver)获取项目
 
 1. 在cmd输入命令adb devices即可获得当前连接的设备的设备号
 <img :src="$withBase('/01.png')" alt="01">
