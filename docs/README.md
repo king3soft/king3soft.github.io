@@ -2,15 +2,13 @@
 sidebar: false
 home: true
 # heroImage: /hero.png
-description: 专注于移动端手游性能服务
-actionText: 快速查看上手 →
-actionLink: https://vuepress.vuejs.org/zh/guide
-features:
-- title: 专注于移动端服务
-  details: 使用CURL常用命令行,无需所谓的接入脚本,无需开发环境
-- title: 分析全面
-  details: 高效分析安装包内文件占比及大小,让你一眼发现有问题的资源
-- title: 多维展示
-  details: 前端多维数据展示,帮助发现问题资源.配合UResourceTool服用效果更佳
+description: UAuto自动化及性能测试
+actionText: 查看文档 →
+actionLink: /Allsiderbar/Allsiderbar
+# features:
+# - title: 分享文档
+#   details: 可分享自己的笔记文档，展示自己的想法
+# - title: 探讨交流
+#   details: 可发表自己的评论，与其他人交流想法，共同进步
 footer: MIT Licensed | Copyright © 2020-present by king3soft
 ---

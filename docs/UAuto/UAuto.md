@@ -1,6 +1,5 @@
 ---
 navbar: false
-sidebar: auto
 title: 手游自动化测试
 ---
  
