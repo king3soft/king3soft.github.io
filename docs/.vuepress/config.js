@@ -19,7 +19,7 @@ module.exports = {
         
         '/Allsiderbar/': [
         {
-          title: 'UAutoIED 使用指南',   
+          title: 'UAutoIDE 使用指南',   
           // path: '/UAuto/UAuto',     
           // sidebarDepth: 0,    
           children: [

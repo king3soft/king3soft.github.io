@@ -1,5 +1,5 @@
 ---
-title: UAutoIED
+title: UAutoIDE
 ---
 
 ## 简介
@@ -28,7 +28,6 @@ UAutoIDE是一款专门用来进行手游自动化功能测试的平台，无需
 <img :src="$withBase('/17.png')" alt="17">
 
 
-<!-- ## 视频演示
-<video style="height:100%">
-<source src='/public/UAuto2.mp4' type="video/mp4">
-</video> -->
+## 视频演示
+<video style= "controls mt" src='/UAuto2.mp4' type="video/mp4">
+</video>
