@@ -1,16 +1,16 @@
 ---
-navbar: false
-title: 手游自动化框架详解
+title: 自动化框架详解
+siderbar: auto
 ---
  
-## 手游自动化
->
+## 什么是手游自动化
+> 通过非人工的方来模拟用户对游戏进行指定的操作
 
 ## U3Driver安装方法
 [https://king3soft.github.io/u3driver](https://king3soft.github.io/u3driver)
 
 ## python端与dll包实现连接的方式
->如果您需要使用搭建好的python框架，请从[https://github.com/king3soft/u3driver](https://github.com/king3soft/u3driver)获取项目
+> 如果您需要使用搭建好的python框架，请从[自动化python框架](https://github.com/king3soft/u3driver)获取
 
 1. 在cmd输入命令adb devices即可获得当前连接的设备的设备号
 <img :src="$withBase('/01.png')" alt="01">
@@ -112,7 +112,7 @@ uiauto.swipe(x1,y1,x2,y2,0.5) # 模拟滑动操作
 <img :src="$withBase('/05.png')" alt="05">
 
 3. 未找到该物体，解决方法：查看该控件是否在当前的游戏界面中，可通过debug_mode录制确认路径是否有误
-<img :src="$withBase('/06.png')" alt="06" style>
+<img :src="$withBase('/06.png')" alt="06" >
 
 4. 越界错误，一般出现在寻找父物体下的子物体时，父物体下无该索引的子物体即报错，解决方法：修改child_index()里的索引进行寻找，要确保该父物体下是有子物体存在的
 <img :src="$withBase('/07.png')" alt="07">
