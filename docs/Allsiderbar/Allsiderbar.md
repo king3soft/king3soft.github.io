@@ -29,5 +29,5 @@ UAutoIDE是一款专门用来进行手游自动化功能测试的平台，无需
 
 
 ## 视频演示
-<video style= "controls mt" src='/UAuto2.mp4' type="video/mp4">
+<video controls width ='100%' src='/UAuto2.mp4' type="video/mp4">
 </video>
