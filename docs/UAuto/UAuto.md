@@ -10,7 +10,7 @@ siderbar: auto
 [https://king3soft.github.io/u3driver](https://king3soft.github.io/u3driver)
 
 ## python端与dll包实现连接的方式
-> 如果您需要使用搭建好的python框架，请从[自动化python框架](https://github.com/king3soft/u3driver)获取
+如果您需要使用搭建好的python框架，请从[自动化python框架](https://github.com/king3soft/u3driver)获取
 
 1. 在cmd输入命令adb devices即可获得当前连接的设备的设备号
 <img :src="$withBase('/01.png')" alt="01">
@@ -21,7 +21,7 @@ python temp_test.py -s 8f04cc32 -i 10.11.244.243
 ```
 
 ::: tip 注意：
-一般只需要输入-s 设备号即可，脚本会通过adb找到输入设备号的ip地址，部分机型除外（三星）
+一般只需要输入-s 设备号即可，脚本会通过adb找到输入设备的ip地址，部分机型除外（三星）
 :::
 
 ## 基本的python指令
@@ -29,7 +29,9 @@ python temp_test.py -s 8f04cc32 -i 10.11.244.243
 
 最常用的指令包括录制**debug_mode()**、回放**文件名.AutoRun(udriver)**、获取游戏物体**find_object()**、对游戏物体发起点击事件**tap()**、判断物体是否存在**object_exist()**、获取父物体下所有直接子物体的名字**find_child()**、按名字获取父物体的直接子物体**find()**、按索引获取父物体下的子物体**child_index()** 等
 
-**具体指令可通过上述u3driver笔记链接查看**
+**具体指令可通过上述u3driver文档查看**
+
+为了解释后面的功能，这里对游戏物体的路径进行说明，假如有下面游戏场景，**StartButton** 的路径为 **/Canvas/StarButton**
 
 <img :src="$withBase('/02.png')" alt="02">
 
