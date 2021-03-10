@@ -28,5 +28,6 @@ UAutoIDE是一款专门用来进行unity3D游戏自动化功能测试的平台�
 
 
 ## 视频演示
-<video controls width ='100%' src='/UAuto2.mp4' type="video/mp4">
-</video>
+<iframe src="//player.bilibili.com/player.html?aid=629392841&bvid=BV1fb4y1R7wQ&cid=304640473&page=1" style="height:600px;width:100%;"> </iframe>
+
+<!-- <video controls width ='100%' src='/UAuto2.mp4' type="video/mp4"></video> -->
