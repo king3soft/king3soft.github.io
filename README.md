@@ -1,7 +1,12 @@
 # UAutoIDE使用文档
 
-## 入口
+## 国外入口(国内访问速度比较慢)
+
 https://king3soft.github.io
+
+## 国内入口(使用gitee加速)
+
+https://king3soft.gitee.io
 
 ## 如何参与开发
 
