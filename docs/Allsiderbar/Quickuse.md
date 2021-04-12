@@ -6,7 +6,9 @@ title: 快速上手
 **UAutoIDE下载地址：** [https://github.com/king3soft/UAutoIDE/releases](https://github.com/king3soft/UAutoIDE/releases)
 
 ## 开始使用
-打开UAutoIDE，新手可选择进行教学。
+**设备需连接内网kingsoft，开启开发者选项，开启usb调试，进行操作的apk需已打入自动化SDK**
+
+新手指导：电脑连接设备后，设备打开需要进行操作的apk，打开UAutoIDE，新手可选择进行教学。
 <img :src="$withBase('/11.png')" alt="11">
 
 新手指导：按提示将手机连接，UAutoIDE将自动安装测试apk。
@@ -15,7 +17,7 @@ title: 快速上手
 新手指导：点击执行即可演示回放脚本，完成新手指导。
 <img :src="$withBase('/14.png')" alt="14">
 
-若不需要进行新手指导，电脑连接设备后选择设备列表中的测试机，点击连接（设备需开启usb调试），若无法连接需手动输入设备IP地址。
+电脑连接设备后，设备打开需要进行操作的apk，选择设备列表中的测试机，点击连接。
 <img :src="$withBase('/15.png')" alt="15">
 
 点击上传，将需要执行的自动化脚本添加，点击选择脚本，选择添加的自动化脚本，点击执行。

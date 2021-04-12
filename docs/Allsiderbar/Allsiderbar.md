@@ -6,8 +6,9 @@ title: UAutoIDE
 UAutoIDE是一款专门用来进行unity3D游戏自动化功能测试的平台，无需安装环境，可直接执行以python为脚本语言编写的自动化脚本，同时提供了录制功能，对于简单的测试案例可通过录制直接生成代码。
 若想编写更复杂的测试案例可启用**高级模式**，查看游戏界面的层级关系和组件信息。
 
-**需要进行自动化的Unity项目必须打入自动化dll包**
+**注：需要进行自动化的Unity项目必须打入自动化SDK**
 
+[自动化SDK：https://github.com/king3soft/UAutoSDK](https://github.com/king3soft/UAutoSDK)
 
 
 ## 主要功能
