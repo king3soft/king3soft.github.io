@@ -1,28 +1,9 @@
 ---
-title: 自动化框架详解
-siderbar: auto
+title: 进阶-U3Driver
 ---
  
-## 什么是手游自动化
-> 通过非人工的方来模拟用户对游戏进行指定的操作
-
-## U3Driver安装方法
-[https://king3soft.github.io/u3driver](https://king3soft.github.io/u3driver)
-
-## python端与dll包实现连接的方式
-如果您需要使用搭建好的python框架，请从[自动化python框架](https://github.com/king3soft/u3driver)获取
-
-1. 在cmd输入命令adb devices即可获得当前连接的设备的设备号
-<img :src="$withBase('/01.png')" alt="01">
-
-2. 在控制台输入命令，通过-s与-i参数输入测试机的设备号与ip地址
-``` js
-python temp_test.py -s 8f04cc32 -i 10.11.244.243
-```
-
-::: tip 注意：
-一般只需要输入-s 设备号即可，脚本会通过adb找到输入设备的ip地址，部分机型除外（三星）
-:::
+## U3Driver
+**U3Driver：**[https://king3soft.github.io/u3driver](https://king3soft.github.io/u3driver)
 
 ## 基本的python指令
 > u3driver以函数形式提供触屏手机所需要的动作指令，python端以字符串形式通过TCP发送给在游戏里的dll包（仅可对NGUI或UGUI控件进行操作）
@@ -31,7 +12,7 @@ python temp_test.py -s 8f04cc32 -i 10.11.244.243
 
 **具体指令可通过上述u3driver文档查看**
 
-为了解释后面的功能，这里对游戏物体的路径进行说明，假如有下面游戏场景，**StartButton** 的路径为 **/Canvas/StarButton**
+为了解释后面的功能，这里对游戏物体的路径进行说明，假如有下面游戏场景，**StartButton** 的路径为 '**/Canvas/StarButton**'
 
 <img :src="$withBase('/02.png')" alt="02">
 

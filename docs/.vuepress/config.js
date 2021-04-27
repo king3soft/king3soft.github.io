@@ -3,15 +3,7 @@ module.exports = {
 
   themeConfig: {
       // displayAllHeaders: true, 
-      nav: [  //链接
-        { 
-          text: '进阶', 
-          ariaLabel:'Language Menu',
-          items:[
-            {text: '自动化框架详解',link:'/UAuto/UAuto'},
-          ]
-        }
-      ],
+    
       sidebar:  {
         '/UAuto/': [
           'UAuto'
@@ -24,7 +16,8 @@ module.exports = {
           // sidebarDepth: 0,    
           children: [
             '/Allsiderbar/Allsiderbar',
-            '/Allsiderbar/Quickuse'
+            '/Allsiderbar/Quickuse',
+            '/Allsiderbar/Advanced'
           ],
           initialOpenGroupIndex: -1
         }
