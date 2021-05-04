@@ -65,7 +65,7 @@ if __name__ == "__main__":
     while not phone.isInstalled():
         phone.installDemo()
         time.sleep(2)
-        print('wait2')
+        print('wait2...')
     phone.openAPP()
     # try:
     #     res = os.popen(
